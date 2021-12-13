@@ -1,8 +1,21 @@
 # p5-typescript
 
+<!-- TOC -->
+
+-   [p5-typescript](#p5-typescript)
+    -   [Description](#description)
+        -   [TypeScript](#typescript)
+        -   [Webpack](#webpack)
+        -   [Yarn](#yarn)
+        -   [GitHub Actions and GitHub Pages](#github-actions-and-github-pages)
+    -   [Installation](#installation)
+    -   [Workflow](#workflow)
+
+<!-- /TOC -->
+
 ## Description
 
-P5-Typescript is a sample project for [p5.js](https://p5js.org/) with:
+P5-Typescript is a sample project for [p5.js](https://p5js.org/) using:
 
 -   [TypeScript](https://www.typescriptlang.org/)
 -   [webpack](https://webpack.js.org/)
