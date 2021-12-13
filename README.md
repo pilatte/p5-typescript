@@ -30,7 +30,7 @@ To setup Github Actions and Pages, you need to push your repository to Github an
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository (Replace `<REPOSITORY_NAME>` with the name of your project)
 
     ```bash
     git clone https://github.com/belgiancoder/p5-typescript.git <REPOSITORY_NAME>
