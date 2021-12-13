@@ -32,10 +32,10 @@ To setup Github Actions and Pages, you need to push your repository to Github an
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/belgiancoder/p5-typescript.git <REPOSITORY_NAME>
-cd <REPOSITORY_NAME>
-```
+    ```bash
+    git clone https://github.com/belgiancoder/p5-typescript.git <REPOSITORY_NAME>
+    cd <REPOSITORY_NAME>
+    ```
 
 1. OPTIONAL: Upload your repository:
 
@@ -56,15 +56,15 @@ cd <REPOSITORY_NAME>
 
 1. Install the dependencies:
 
-```bash
-yarn
-```
+    ```bash
+    yarn
+    ```
 
 1. Start the server:
 
-```bash
-yarn start
-```
+    ```bash
+    yarn start
+    ```
 
 ## Workflow
 
