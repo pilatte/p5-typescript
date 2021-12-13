@@ -20,7 +20,6 @@ module.exports = {
         filename: 'index.js',
         path: path.resolve(__dirname, 'dist'),
     },
-    mode: 'development',
     plugins: [
         new HtmlWebpackPlugin({
             favicon: "./assets/favicon.ico",
