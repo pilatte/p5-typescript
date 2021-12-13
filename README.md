@@ -28,13 +28,11 @@ P5-Typescript is a sample project for [p5.js](https://p5js.org/) using TypeScrip
 
 ### Yarn
 
-[Yarn](https://yarnpkg.com/en/docs/install) uses the NPM registry to download and install packages. Installing is easy, just do `yarn add lodash`. Thanks to webpack, you can link the libraries you need easily `import lodash as _ from lodash` or `import { has } from lodash`.
+[Yarn](https://yarnpkg.com/en/docs/install) uses the NPM registry to download and install packages. Installing is easy, just do `yarn add package`. Thanks to webpack, you can link the libraries you need easily `import { thing } from package`.
 
 ### GitHub Actions and GitHub Pages
 
 [GitHub Actions](https://github.com/features/actions) and [GitHub Pages](https://pages.github.com/) are optional, they allow you to share a live version of your sketch with the world. Every time you push a new version, your website is updated.
-
-To setup Github Actions and Pages, you need to push your repository to Github and enable Github Actions and Pages. Before doing that, it's a good idea to run to start fresh.
 
 ## Installation
 
