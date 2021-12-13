@@ -37,11 +37,11 @@ To setup Github Actions and Pages, you need to push your repository to Github an
     cd <REPOSITORY_NAME>
     ```
 
-1. OPTIONAL: Upload your repository:
+1. **OPTIONAL:** Upload your repository:
 
     1. Create a new repository on Github.
 
-    1. Upload your repository to Github.
+    1. Upload your repository to Github. Replace `<REPOSITORY_NAME>` and `<USERNAME>`.
 
         ```bash
         rm -rf .git && \
@@ -52,7 +52,7 @@ To setup Github Actions and Pages, you need to push your repository to Github an
         git push -u origin master
         ```
 
-    1. OPTIONAL: Enable Github Actions and Pages in the settings.
+    1. **OPTIONAL:** Enable Github Actions and Pages in the settings.
 
 1. Install the dependencies:
 
