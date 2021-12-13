@@ -1,17 +1,18 @@
 # p5-typescript
 
-<!-- TOC -->
+<!-- prettier-ignore-start -->
+<!-- TOC depthFrom:2 -->
 
--   [p5-typescript](#p5-typescript)
-    -   [Description](#description)
-        -   [TypeScript](#typescript)
-        -   [Webpack](#webpack)
-        -   [Yarn](#yarn)
-        -   [GitHub Actions and GitHub Pages](#github-actions-and-github-pages)
-    -   [Installation](#installation)
-    -   [Workflow](#workflow)
+- [Description](#description)
+    - [TypeScript](#typescript)
+    - [Webpack](#webpack)
+    - [Yarn](#yarn)
+    - [GitHub Actions and GitHub Pages](#github-actions-and-github-pages)
+- [Installation](#installation)
+- [Workflow](#workflow)
 
 <!-- /TOC -->
+<!-- prettier-ignore-end -->
 
 ## Description
 
