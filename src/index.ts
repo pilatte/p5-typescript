@@ -27,6 +27,14 @@ const sketch = (p: p5) => {
     };
 };
 
-const containerElement = document.getElementById("p5-container");
-const p5Object = new p5(sketch, containerElement);
+///////////////////////////////
+// Add the sketch to the DOM //
+///////////////////////////////
+const div = document.createElement("div");
+div.id = "p5-container";
+document.body.style.margin = "0";
+document.body.style.padding = "0";
+document.body.appendChild(div);
+const p5Object = new p5(sketch, div);
 export { p5Object as p };
+///////////////////////////////
