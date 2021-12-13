@@ -16,29 +16,23 @@
 
 ## Description
 
-P5-Typescript is a sample project for [p5.js](https://p5js.org/) using:
-
--   [TypeScript](https://www.typescriptlang.org/)
--   [webpack](https://webpack.js.org/)
--   [yarn](https://yarnpkg.com/en/docs/install) (or [npm](https://www.npmjs.com/))
--   [GitHub Actions](https://github.com/features/actions)
--   [GitHub Pages](https://pages.github.com/)
+P5-Typescript is a sample project for [p5.js](https://p5js.org/) using TypeScript, Webpack, and Yarn.
 
 ### TypeScript
 
-TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. The main advantage is error detection, and autocompletion.
+[TypeScript](https://www.typescriptlang.org/) is a typed superset of JavaScript that compiles to plain JavaScript. The main advantage is error detection, and autocompletion.
 
 ### Webpack
 
-Webpack allows you to import other files and NPM packages and package them into a single file. That way you don't have to worry about CDNs, linking,...
+[Webpack](https://webpack.js.org/) allows you to import other files and NPM packages and package them into a single file. That way you don't have to worry about CDNs, linking,...
 
 ### Yarn
 
-Yarn uses the NPM registry to download and install packages. Installing is easy, just do `yarn add lodash`. Thanks to webpack, you can link the libraries you need easily `import lodash as _ from lodash` or `import { has } from lodash`.
+[Yarn](https://yarnpkg.com/en/docs/install) uses the NPM registry to download and install packages. Installing is easy, just do `yarn add lodash`. Thanks to webpack, you can link the libraries you need easily `import lodash as _ from lodash` or `import { has } from lodash`.
 
 ### GitHub Actions and GitHub Pages
 
-Github Actions and Pages are optional, they allow you to share a live version of your sketch with the world. Every time you push a new version, your website is updated.
+[GitHub Actions](https://github.com/features/actions) and [GitHub Pages](https://pages.github.com/) are optional, they allow you to share a live version of your sketch with the world. Every time you push a new version, your website is updated.
 
 To setup Github Actions and Pages, you need to push your repository to Github and enable Github Actions and Pages. Before doing that, it's a good idea to run to start fresh.
 
