@@ -44,11 +44,11 @@ To setup Github Actions and Pages, you need to push your repository to Github an
     1. Upload your repository to Github. Replace `<REPOSITORY_NAME>` and `<USERNAME>`.
 
         ```bash
-        rm -rf .git && \
-        git init && \
-        git add . && \
-        git commit -m "initial commit" && \
-        git remote add origin https://github.com/<USERNAME>/<REPOSITORY_NAME>.git && \
+        rm -rf .git
+        git init
+        git add .
+        git commit -m "initial commit"
+        git remote add origin https://github.com/<USERNAME>/<REPOSITORY_NAME>.git
         git push -u origin master
         ```
 
@@ -68,10 +68,12 @@ To setup Github Actions and Pages, you need to push your repository to Github an
 
 ## Workflow
 
-Open a terminal and run `yarn start`. A web browser will open.
+1. Open a terminal and run `yarn start`. A web browser will open.
 
-Edit the files in the `src` folder. P5 runs in instance mode, so you have to put `p.background(0)` instead of `background(0)`.
+1. Edit the files in the `src` folder.
 
-When you save, the browser will automatically update.
+    > :warning: P5 runs in instance mode, so you have to put `p.background(0)` instead of `background(0)`.
 
-If you commit and push, the website will automatically update.
+1. When you save, the browser will automatically update.
+
+1. If you commit and push, the website will automatically update.
