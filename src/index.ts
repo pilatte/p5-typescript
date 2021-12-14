@@ -32,8 +32,10 @@ const sketch = (p: p5) => {
 ///////////////////////////////
 const div = document.createElement("div");
 div.id = "p5-container";
-document.body.style.margin = "0";
-document.body.style.padding = "0";
+// // Might be needed on some browsers
+// // to fill the screen completely
+// document.body.style.margin = "0";
+// document.body.style.padding = "0";
 document.body.appendChild(div);
 const p5Object = new p5(sketch, div);
 export { p5Object as p };
