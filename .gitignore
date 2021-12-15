@@ -1,4 +1,4 @@
 node_modules
 yarn-error.log
-dist/index.js.LICENSE.txt
-dist/index.js
+public/index.js.LICENSE.txt
+public/index.js.map
